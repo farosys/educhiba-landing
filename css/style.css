@@ -1,17 +1,35 @@
 body {
+}
+
+header {
     background-color: whitesmoke;
 }
 
-nav {
-    background-color: #306072;
+header nav img {
+    width: 80px;
 }
 
-#chamada {
-    background-image: url('../img/chamada/1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+header nav a:last-child, header #chamada a:last-child {
+    border-radius: 15px;
 }
+
+header #chamada img {
+    width: 400px;
+    float: right;
+}
+
+header #chamada {
+    margin-bottom: 80px;
+}
+
+header #chamada #titulo {
+    color: #167dc1;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* nav {
+    background-color: red;
+} */
 
 form {
     background-color: #306072;
