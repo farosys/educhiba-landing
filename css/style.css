@@ -1,0 +1,46 @@
+body {
+    background-color: whitesmoke;
+}
+
+nav {
+    background-color: #306072;
+}
+
+#chamada {
+    background-image: url('../img/chamada/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    background-color: #306072;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.descricao_ferramentas {
+    font-family: 'Blinker', sans-serif;
+}
+
+#depoimentos img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+#depoimentos .bloco {
+    background-color: #D3D3D3;
+}
+
+.nome_depoimentos {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.descricao_depoimentos {
+    font-family: 'Blinker', sans-serif;
+}
