@@ -13,9 +13,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"> Formulário </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"> Nome </span>
+                        <input type="text" class="form-control" placeholder="Fulano da Silva" id="nome" name="nome" required>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"> E-mail </span>
+                        <input type="email" class="form-control" placeholder="seuemail@exemplo.com.br" id="email" name="email" required>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="telefone"> WhatsAppp / Telefone </span>
+                        <input type="text" class="form-control" placeholder="(xx) x xxxx-xxxx" data-mask="(00) 0 0000-0000" id="telefone" name="telefone" required>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success"> Agendar Aula Gratuita </button>
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="pb-5">
         <nav class="navbar navbar-light navbar-expand-lg py-4">
             <div class="container">
@@ -51,20 +82,24 @@
                         </li>
 
                         <li class="nav-item ms-md-4">
-                            <a class="btn btn-outline-danger" href="#"> Aula Gratuita </a>
+                            <a class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                                href="#"> Aula Gratuita </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <section id="chamada" class="mt-5">
+        <section id="chamada">
             <div class="container">
                 <div class="row">
                     <div class="col-6">
                         <p id="titulo" class="display-4"> Aprenda um novo idioma </p>
-                        <p class="text-secondary mt-4"> Aulas online e ao vivo para quem não fala inglês/português e precisa se comunicar no trabalho, no exterior ou em qualquer outro lugar. </p>
-                        <a class="btn btn-outline-danger mt-3 py-2 px-3" href="#"> Agendar Aula Gratuita </a>
+                        <p id="descricao" class="text-secondary mt-4"> Aulas online e ao vivo para quem não fala
+                            inglês/português e precisa se comunicar no trabalho, no exterior ou em qualquer outro lugar.
+                        </p>
+                        <a class="btn btn-outline-danger mt-3 py-2 px-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                        href="#"> Agendar Aula Gratuita </a>
                     </div>
 
                     <div class="col-6">
@@ -74,37 +109,6 @@
             </div>
         </section>
     </header>
-
-    <!-- <section id="chamada" class="py-5">
-            <div class="container">
-                <div class="row my-4">
-                    <div class="col-md"></div>
-
-                    <div class="col-md-5">
-                        <form class="p-5 shadow-lg">
-                            <p class="mb-2 text-center fw-bold"> AGENDE UMA AULA GRATUITA </p>
-                            <p class="mb-4"> Ainda na dúvida? Venha conhecer os nossos métodos. </p>
-
-                            <div class="mb-3">
-                                <input type="text" class="form-control" id="nome" aria-describedby="nomeDica" placeholder="Nome Completo">
-                            </div>
-
-                            <div class="mb-3">
-                                <input type="email" class="form-control" id="email" aria-describedby="emailDica" placeholder="E-mail">
-                            </div>
-        
-                            <div class="mb-3">
-                                <input type="text" class="form-control" id="telefone" aria-describedby="telefoneDica" placeholder="WhatsApp ou Telefone">
-                            </div>
-        
-                            <button type="submit" class="btn btn-lg btn-outline-info w-100 mt-3"> AGENDAR AGORA </button>
-                        </form>
-                    </div>
-
-                    <div class="col-md"></div>
-                </div>
-            </div>
-        </section> -->
 
     <section id="ferramentas" class="py-5">
         <div class="container">
@@ -194,8 +198,11 @@
     </footer>
 </body>
 
-<script src="js/bootstrap.bundle.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
-<script src="js/script.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/jquery.mask.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="./js/script.js"></script>
 
 </html>

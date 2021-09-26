@@ -9,6 +9,10 @@ header nav img {
     width: 80px;
 }
 
+header nav a {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
 header nav a:last-child, header #chamada a:last-child {
     border-radius: 15px;
 }
@@ -19,12 +23,16 @@ header #chamada img {
 }
 
 header #chamada {
-    margin-bottom: 80px;
+    margin: 70px 0;
 }
 
 header #chamada #titulo {
     color: #167dc1;
     font-family: 'Varela Round', sans-serif;
+}
+
+header #chamada #descricao, header #chamada a {
+    font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 /* nav {
