@@ -37,6 +37,19 @@ h1 {
     line-height: 25px;
 }
 
+/* Ferramentas*/
+
+#ferramentas .nome {
+    font-family: 'Varela Round', sans-serif;
+    color: #dc3545;
+}
+
+#ferramentas .descricao {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+}
 
 /* Reorganização */
 
@@ -78,8 +91,4 @@ form {
     background-color: #306072;
     border-radius: 10px;
     color: whitesmoke;
-}
-
-.descricao_ferramentas {
-    font-family: 'Blinker', sans-serif;
 }
