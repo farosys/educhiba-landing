@@ -1,5 +1,44 @@
-body {
+/* Reorganização */
+
+
+/* Título e Subtítulo */
+
+h1 {
+    font-family: 'Varela Round', sans-serif;
+    color: #167dc1;
 }
+
+#subtitulo {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+/* Depoimentos */
+
+#depoimentos .bloco {
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+
+#depoimentos img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+#depoimentos .nome {
+    font-family: 'Varela Round', sans-serif;
+    color: #dc3545;
+}
+
+#depoimentos .relato {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+/* Reorganização */
 
 header {
     background-color: whitesmoke;
@@ -35,38 +74,12 @@ header #chamada #descricao, header #chamada a {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-/* nav {
-    background-color: red;
-} */
-
 form {
     background-color: #306072;
     border-radius: 10px;
     color: whitesmoke;
 }
 
-h2 {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 .descricao_ferramentas {
-    font-family: 'Blinker', sans-serif;
-}
-
-#depoimentos img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-}
-
-#depoimentos .bloco {
-    background-color: #D3D3D3;
-}
-
-.nome_depoimentos {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.descricao_depoimentos {
     font-family: 'Blinker', sans-serif;
 }
