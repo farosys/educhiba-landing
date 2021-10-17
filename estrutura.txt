@@ -6,7 +6,7 @@
 
 # ferramentas OK
 
-# o professor
+# o professor OK
 
 # rodapé OK
 

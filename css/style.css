@@ -1,5 +1,16 @@
 /* Reorganização */
 
+header {
+    padding: 130px 0 50px;
+}
+
+#funciona,
+#depoimentos,
+#ferramentas,
+#professor {
+    padding: 130px 0 50px;
+}
+
 
 /* Título e Subtítulo */
 
@@ -12,7 +23,25 @@ h1 {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
+/* Funciona */
+
+#funciona .nome {
+    font-family: 'Varela Round', sans-serif;
+    color: #dc3545;
+}
+
+#funciona .descricao {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+}
+
 /* Depoimentos */
+
+#depoimentos {
+    background-color: whitesmoke;
+}
 
 #depoimentos .bloco {
     background-color: whitesmoke;
@@ -39,10 +68,6 @@ h1 {
 
 /* Ferramentas*/
 
-#ferramentas {
-    background-color: whitesmoke;
-}
-
 #ferramentas .nome {
     font-family: 'Varela Round', sans-serif;
     color: #dc3545;
@@ -56,6 +81,10 @@ h1 {
 }
 
 /* O Professor */
+
+#professor {
+    background-color: whitesmoke;
+}
 
 #professor .nome {
     font-family: 'Varela Round', sans-serif;
@@ -90,17 +119,22 @@ footer p {
 
 header {
     background-color: whitesmoke;
+    /* margin-top: 96px; */
 }
 
-header nav img {
-    width: 80px;
+nav {
+    background-color: #DCDCDC;
 }
 
-header nav a {
+nav img {
+    width: 70px;
+}
+
+nav a {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-header nav a:last-child, header #chamada a:last-child {
+nav a:last-child, header #chamada a:last-child {
     border-radius: 15px;
 }
 
