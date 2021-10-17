@@ -1,6 +1,6 @@
 # topo OK
 
-# como funciona?
+# como funciona? OK
 
 # depoimentos OK
 
@@ -9,6 +9,10 @@
 # o professor OK
 
 # rodapé OK
+
+# falta o conteudo personalizado de cada página
+# marcar em qual tab estamos
+# form ou whats?
 
 
 https://www.english101online.com/
