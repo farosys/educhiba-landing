@@ -39,6 +39,10 @@ h1 {
 
 /* Ferramentas*/
 
+#ferramentas {
+    background-color: whitesmoke;
+}
+
 #ferramentas .nome {
     font-family: 'Varela Round', sans-serif;
     color: #dc3545;
@@ -49,6 +53,27 @@ h1 {
     text-align: left;
     font-size: 15px;
     line-height: 25px;
+}
+
+/* O Professor */
+
+#professor .nome {
+    font-family: 'Varela Round', sans-serif;
+    color: #dc3545;
+    font-size: 20px;
+}
+
+#professor .descricao {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: left;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+#professor img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 
 /* Footer */
