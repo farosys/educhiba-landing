@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /img/
+Allow: /img/professor/1.png
+
+Sitemap: http://educhiba.com/sitemap.xml
