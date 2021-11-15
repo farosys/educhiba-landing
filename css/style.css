@@ -5,6 +5,7 @@ header {
 }
 
 #funciona,
+#courses,
 #depoimentos,
 #ferramentas,
 #professor {
@@ -35,6 +36,15 @@ h1 {
     text-align: left;
     font-size: 15px;
     line-height: 25px;
+}
+
+/* Courses */
+
+#courses .nome {
+    background-color: #dc3545;
+    height: 60px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
 }
 
 /* Depoimentos */
