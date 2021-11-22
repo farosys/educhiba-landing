@@ -1,151 +1,44 @@
 /* General */
 
-header {
-    padding: 130px 0 50px;
-}
-
-#funciona,
+#how-it-works,
+#tools,
 #courses,
-#depoimentos,
-#ferramentas,
-#professor {
+#deposition,
+#the-teacher {
     padding: 130px 0 50px;
 }
-
-
-/* Title e Subtitle */
 
 h1 {
     font-family: 'Varela Round', sans-serif;
     color: #167dc1;
 }
 
-#subtitulo {
+#subtitle {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-/* How It Works */
-
-#funciona .nome {
-    font-family: 'Varela Round', sans-serif;
-    color: #dc3545;
-}
-
-#funciona .descricao {
-    font-family: 'Saira Semi Condensed', sans-serif;
-    text-align: left;
-    font-size: 15px;
-    line-height: 25px;
-}
-
-/* Tools*/
-
-#ferramentas {
-    background-color: whitesmoke;
-}
-
-#ferramentas .nome {
-    font-family: 'Varela Round', sans-serif;
-    color: #dc3545;
-}
-
-#ferramentas .descricao {
-    font-family: 'Saira Semi Condensed', sans-serif;
-    text-align: left;
-    font-size: 15px;
-    line-height: 25px;
-}
-
-/* Courses */
-
-#courses .box {
-    border-radius: 10px;
-}
-
-#courses .nome {
-    background-color: #167dc1;
-    border-radius: 5px;
-    font-size: 15px;
-    font-family: 'Varela Round', sans-serif;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-}
-
-#courses .description {
-    font-size: 14px;
-    font-family: 'Saira Semi Condensed', sans-serif;
-}
-
-/* Depoimentos */
-
-#depoimentos {
-    background-color: whitesmoke;
-}
-
-#depoimentos .bloco {
-    background-color: whitesmoke;
-    border-radius: 30px;
-}
-
-#depoimentos img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-}
-
-#depoimentos .nome {
-    font-family: 'Varela Round', sans-serif;
-    color: #dc3545;
-}
-
-#depoimentos .relato {
-    font-family: 'Saira Semi Condensed', sans-serif;
-    text-align: left;
-    font-size: 15px;
-    line-height: 25px;
-}
-
-/* O Professor */
-
-#professor {
-    background-color: whitesmoke;
-}
-
-#professor .nome {
-    font-family: 'Varela Round', sans-serif;
-    color: #dc3545;
-    font-size: 20px;
-}
-
-#professor .descricao {
-    font-family: 'Saira Semi Condensed', sans-serif;
-    text-align: left;
-    font-size: 17px;
-    line-height: 30px;
-}
-
-#professor img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-}
-
-/* Footer */
-
-footer {
-    background-color: #167dc1;
-}
-
-footer p {
-    font-family: 'Saira Semi Condensed', sans-serif;
-}
-
-/* Reorganização */
+/* Header */
 
 header {
+    padding: 130px 0 50px;
     background-color: whitesmoke;
-    /* margin-top: 96px; */
+}
+
+#call-to-action {
+    margin: 70px 0;
+}
+
+#call-to-action #title {
+    color: #167dc1;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#call-to-action img {
+    width: 400px;
+}
+
+#call-to-action #description, #call-to-action a {
+    font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 nav {
@@ -160,35 +53,126 @@ nav a {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-nav a:last-child, header #chamada a:last-child {
+nav a:last-child, #call-to-action a:last-child {
     border-radius: 15px;
 }
 
-#chamada .row div:nth-child(2) {
+#call-to-action .row div:nth-child(2) {
     text-align: right;
 }
 
-header #chamada img {
-    width: 400px;
-}
+/* How It Works */
 
-header #chamada {
-    margin: 70px 0;
-}
-
-header #chamada #titulo {
-    color: #167dc1;
+#how-it-works .name {
     font-family: 'Varela Round', sans-serif;
+    color: #dc3545;
 }
 
-header #chamada #descricao, header #chamada a {
+#how-it-works .description {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* Tools*/
+
+#tools {
+    background-color: whitesmoke;
+}
+
+#tools .name {
+    font-family: 'Varela Round', sans-serif;
+    color: #dc3545;
+}
+
+#tools .description {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* Courses */
+
+#courses .box {
+    border-radius: 10px;
+}
+
+#courses .name {
+    background-color: #167dc1;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#courses .description {
+    font-size: 14px;
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-form {
-    background-color: #306072;
-    border-radius: 10px;
-    color: whitesmoke;
+/* deposition */
+
+#deposition {
+    background-color: whitesmoke;
+}
+
+#deposition .box {
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+
+#deposition img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+#deposition .name {
+    font-family: 'Varela Round', sans-serif;
+    color: #dc3545;
+}
+
+#deposition .description {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* The Teacher */
+
+#the-teacher {
+    background-color: whitesmoke;
+}
+
+#the-teacher .nome {
+    font-family: 'Varela Round', sans-serif;
+    color: #dc3545;
+    font-size: 20px;
+}
+
+#the-teacher .descricao {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: left;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+#the-teacher img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Footer */
+
+footer {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    background-color: #167dc1;
 }
 
 @media (max-width: 767.98px) {
@@ -197,27 +181,27 @@ form {
         text-align: center;
     }
 
-    #chamada .row {
+    #call-to-action .row {
         flex-flow: column-reverse;
     }
 
-    #chamada .row div:nth-child(2) {
+    #call-to-action .row div:nth-child(2) {
         text-align: center;
     }
 
-    #chamada .row div:nth-child(1) {
+    #call-to-action .row div:nth-child(1) {
         margin-top: 50px;
     }
 
-    header #chamada img {
+    header #call-to-action img {
         width: 200px;
     }
 
-    #professor .row {
+    #the-teacher .row {
         flex-flow: column-reverse;
     }
 
-    #professor img {
+    #the-teacher img {
         width: 200px;
         height: 200px;
     }
