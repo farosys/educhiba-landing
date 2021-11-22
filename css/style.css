@@ -1,4 +1,4 @@
-/* Reorganização */
+/* General */
 
 header {
     padding: 130px 0 50px;
@@ -13,7 +13,7 @@ header {
 }
 
 
-/* Título e Subtítulo */
+/* Title e Subtitle */
 
 h1 {
     font-family: 'Varela Round', sans-serif;
@@ -24,7 +24,7 @@ h1 {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-/* Funciona */
+/* How It Works */
 
 #funciona .nome {
     font-family: 'Varela Round', sans-serif;
@@ -32,6 +32,24 @@ h1 {
 }
 
 #funciona .descricao {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* Tools*/
+
+#ferramentas {
+    background-color: whitesmoke;
+}
+
+#ferramentas .nome {
+    font-family: 'Varela Round', sans-serif;
+    color: #dc3545;
+}
+
+#ferramentas .descricao {
     font-family: 'Saira Semi Condensed', sans-serif;
     text-align: left;
     font-size: 15px;
@@ -82,20 +100,6 @@ h1 {
 }
 
 #depoimentos .relato {
-    font-family: 'Saira Semi Condensed', sans-serif;
-    text-align: left;
-    font-size: 15px;
-    line-height: 25px;
-}
-
-/* Ferramentas*/
-
-#ferramentas .nome {
-    font-family: 'Varela Round', sans-serif;
-    color: #dc3545;
-}
-
-#ferramentas .descricao {
     font-family: 'Saira Semi Condensed', sans-serif;
     text-align: left;
     font-size: 15px;
