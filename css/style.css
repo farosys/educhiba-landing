@@ -145,10 +145,6 @@ nav a:last-child, #call-to-action a:last-child {
 
 /* The Teacher */
 
-#the-teacher {
-    background-color: whitesmoke;
-}
-
 #the-teacher .nome {
     font-family: 'Varela Round', sans-serif;
     color: #dc3545;
