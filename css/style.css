@@ -1,5 +1,9 @@
 /* General */
 
+.navbar .navbar-nav li .nav-link:hover {
+	color: #dc3545;
+}
+
 #how-it-works,
 #tools,
 #courses,
@@ -24,6 +28,22 @@ header {
     background-color: whitesmoke;
 }
 
+nav {
+    background-color: #DCDCDC;
+}
+
+nav img {
+    width: 70px;
+}
+
+nav a {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+nav a:last-child, #call-to-action a:last-child {
+    border-radius: 15px;
+}
+
 #call-to-action {
     margin: 70px 0;
 }
@@ -39,22 +59,6 @@ header {
 
 #call-to-action #description, #call-to-action a {
     font-family: 'Saira Semi Condensed', sans-serif;
-}
-
-nav {
-    background-color: #DCDCDC;
-}
-
-nav img {
-    width: 70px;
-}
-
-nav a {
-    font-family: 'Saira Semi Condensed', sans-serif;
-}
-
-nav a:last-child, #call-to-action a:last-child {
-    border-radius: 15px;
 }
 
 #call-to-action .row div:nth-child(2) {
@@ -189,7 +193,7 @@ footer {
         margin-top: 50px;
     }
 
-    header #call-to-action img {
+    #call-to-action img {
         width: 200px;
     }
 
