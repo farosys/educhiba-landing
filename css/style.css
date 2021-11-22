@@ -40,11 +40,23 @@ h1 {
 
 /* Courses */
 
+#courses .box {
+    border-radius: 10px;
+}
+
 #courses .nome {
-    background-color: #dc3545;
-    height: 60px;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
+    background-color: #167dc1;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#courses .description {
+    font-size: 14px;
+    font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 /* Depoimentos */
