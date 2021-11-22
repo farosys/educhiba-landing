@@ -7,7 +7,7 @@
 #how-it-works,
 #tools,
 #courses,
-#deposition,
+#depositions,
 #the-teacher {
     padding: 130px 0 50px;
 }
@@ -118,29 +118,29 @@ nav a:last-child, #call-to-action a:last-child {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-/* deposition */
+/* Depositions */
 
-#deposition {
+#depositions {
     background-color: whitesmoke;
 }
 
-#deposition .box {
+#depositions .box {
     background-color: whitesmoke;
     border-radius: 30px;
 }
 
-#deposition img {
+#depositions img {
     width: 80px;
     height: 80px;
     object-fit: cover;
 }
 
-#deposition .name {
+#depositions .name {
     font-family: 'Varela Round', sans-serif;
     color: #dc3545;
 }
 
-#deposition .description {
+#depositions .description {
     font-family: 'Saira Semi Condensed', sans-serif;
     text-align: left;
     font-size: 15px;
